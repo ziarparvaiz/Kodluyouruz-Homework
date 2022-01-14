@@ -1,0 +1,86 @@
+/********** COLOR **********/
+.bg-dark {
+    background-color: #090C10;
+}
+.bg-dark-blue {
+    background-color: #161B22;
+}
+.bg-grey {
+    background-color: #30363D;
+}
+.bg-primary {
+    background-color: #58A6FF;
+}
+.bg-success {
+    background-color: #2EA043;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+/********** / COLOR **********/
+
+/********** Container **********/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/********** / Container **********/
+
+/********** Heading **********/
+.heading-small {
+    font-size: 1.25rem;
+}
+.heading-medium {
+    font-size: 1.5rem;
+}
+.heading-large {
+    font-size: 2.3rem;
+}
+.heading-large:hover {
+    color: var(--bg-primary);
+}
+/********** / Heading **********/
+
+/********** a Tag **********/
+a {
+    color: var(--bg-white);
+}
+/********** / a Tag **********/
+
+/********** Button **********/
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 1.8px;
+}
+.btn-primary {
+    background-color: var(--bg-primary);
+    color: var(--bg-white);
+    transition: 300ms all;
+}
+.btn-primary:hover {
+    background-color: var(--bg-dark);
+    color: var(--bg-primary);
+    border: 1px solid var(--bg-primary);
+}
+.btn-success {
+    background-color: var(--bg-success);
+    color: var(--bg-white);
+    transition: 300ms all;
+}
+.btn-success:hover {
+    background-color: var(--bg-dark);
+    color: var(--bg-success);
+    border: 1px solid var(--bg-success)
+}
+.btn-block {
+    width: 100%;
+}
+/********** / Button **********/
+
+/********** Text Center **********/
+.text-center {
+    text-align: center;
+}
+/********** / Text Center **********/
