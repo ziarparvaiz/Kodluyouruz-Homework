@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    font-family: arial,sans-serif;
+}
+*:focus {
+    outline: 0;
+}
+
+
+:root {
+    --bgColor: hsl(225, 6%, 13%);
+    --darkGray: hsl(225, 4%, 20%);
+    --dark: hsl(0, 0%, 9%);
+    --white: hsl(0, 0%, 100%);
+    --primary: hsl(217, 89%, 76%);
+    --light-primary: hsl(217, 100%, 80%);
+    --fontSize: 14px;
+    --gray: hsl(210, 6%, 63%);
+}
+
+body {
+    background-color: var(--bgColor);
+    color: var(--white);
+    font-size: var(--fontSize);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+/* Header Start */
+header {
+    height: 48px;
+    padding: 8px 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign-in {
+    padding: 9px 23px;
+    background-color: var(--primary);
+    color: var(--dark);
+    border-radius: 4px;
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    transition: 300ms background-color;
+}
+.sign-in:hover {
+    background-color: var(--light-primary);
+}
+
+.icon {
+    padding: 10px;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    color: var(--white);
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.icon:hover {
+    background-color: var(--darkGray);
+}
+
+.lh {
+    line-height: 24px;
+    color: var(--white);
+    margin-right: 15px;
+    transition: 300ms all;
+}
+.lh:hover {
+    text-decoration: underline;
+}
+/* Header End */
+.ggg {
+    width: 272px;
+    height: 92px;
+}
+/* Google Search Start */
+
+main .google-search {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    margin-bottom: 172px;
+}
+.google-img {
+    margin-bottom: 20px;
+}
+.google-img img {
+    width: 272px;
+    height: 92px;
+}
+.search-box {
+    width: 100%;
+    max-width: 582px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+.search-box .search-container {
+    width: auto;
+    height: 49px;
+    background-color: var(--bgColor);
+    border-radius: 24px;
+    border: 2px solid var(--darkGray);
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+}
+.search-box .search-container .input-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.search-box .search-container:hover {
+    background-color: var(--darkGray);
+}
+.search-box .search-container .input-container input {
+    flex-grow: 1;
+    background-color: transparent;
+    color: white;
+    margin-left: 13px;
+}
+.search-box .search-container .input-container svg {
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+    color: var(--gray);
+}
+.google-fb {
+    display: flex;
+    margin-top: 22px;
+}
+.google-fb .gBtn {
+    padding: 5px 16px;
+    font-size: 14px;
+    line-height: 27px;
+    min-width: 54px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    background-color: var(--darkGray);
+    color: var(--white);
+    margin-left: 10px;
+}
+.google-language {
+    margin-top: 30px;
+}
+.google-language span {
+    color: var(--gray);
+}
+.google-language span a {
+    color: var(--primary);
+    padding: 0 3px;
+}
+/* Google Search End */
+
+/* Footer Start */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--dark);
+}
+
+footer .location {
+    border-bottom: 1px solid var(--darkGray);
+    padding: 15px 30px;
+    color: var(--gray);
+}
+footer .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+footer .footer .about a {
+    color: var(--gray);
+    margin-right: 15px;
+}
+footer .footer .privacy a {
+    color: var(--gray);
+    margin-left: 15px;
+}
+
+@media (max-width: 656px) {
+    footer .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer .about {
+        margin-bottom: 15px;
+    }
+};
+/* Footer End */
