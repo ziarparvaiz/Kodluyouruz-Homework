@@ -1,0 +1,20 @@
+// BaseFolder Files //
+@import "base/normalize";
+@import "base/reset";
+@import "base/variables";
+@import "base/mixin";
+
+
+//  Typography Folder Files //
+@import "typography/fonts";
+
+
+// Layout Folder Files //
+@import "layout/body";
+@import "layout/header";
+
+
+// Components Folder Files //
+@import "components/search";
+@import "components/card";
+@import "components/alert";

@@ -1,0 +1,25 @@
+$font-family: 'IBM Plex Sans Condensed', sans-serif;
+
+:root {
+    --bg-color: #FAFCFD;
+    --whiteColor: #FFFFFF;
+    --blueColor: #151926;
+    --grayColor: #DFE8ED;
+    --darkGray: #8E97B6;
+    --darkBlue: #141A31;
+    --headerText: #8E97B6;
+    --apiHoverColor: #f8f8f8;
+    --API-docs: #FFFFFF;
+}
+
+.darkmode {
+    --bg-color: #232737;
+    --whiteColor: #1F2333;
+    --blueColor: #FFFFFF;
+    --grayColor: #D1D5E5;
+    --darkGray: #8E97B6;
+    --darkBlue: #5957CE;
+    --headerText: #5957CE;
+    --apiHoverColor: #2E3348;
+    --API-docs: #FFFFFF;
+}

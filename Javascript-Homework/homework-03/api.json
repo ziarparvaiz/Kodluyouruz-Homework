@@ -1,0 +1,83 @@
+[
+    {
+        "id": 0,
+        "name": "Hunter",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "icon": "src/img/icons/hunter.svg",
+        "url": "https://hunter.io/api",
+        "bookmark": false
+    },
+    {
+        "id": 1,
+        "name": "Twilio",
+        "category": "Data access",
+        "description": "Send and receive SMS and MMS messages as well as query meta-data about text messages.",
+        "icon": "src/img/icons/twilio.svg",
+        "url": "https://www.twilio.com/docs/usage/api",
+        "bookmark": true
+    },
+    {
+        "id": 2,
+        "name": "WhatsApp Business",
+        "category": "Automation",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "icon": "src/img/icons/whatsapp.svg",
+        "url": "https://www.whatsapp.com/business/api",
+        "bookmark": true
+    },
+    {
+        "id": 3,
+        "name": "Stripe",
+        "category": "Data access",
+        "description": "A suite of payment APIs that powers commerce for online businesses of all sizes.",
+        "icon": "src/img/icons/stripe.svg",
+        "url": "https://stripe.com/docs/api",
+        "bookmark": false
+    },
+    {
+        "id": 4,
+        "name": "Typeform",
+        "category": "Data access",
+        "description": "Create, retrieve, update, and delete your typeforms, themes, and images.",
+        "icon": "src/img/icons/typeform.svg",
+        "url": "https://developer.typeform.com/",
+        "bookmark": false
+    },
+    {
+        "id": 5,
+        "name": "BlaBlaCar",
+        "category": "Automation",
+        "description": "BlaBlaCar is a French online marketplace for carpooling.",
+        "icon": "src/img/icons/blablacar.svg",
+        "url": "https://support.blablacar.com/hc/en-gb/categories/360002585239-Developer-BlaBlaCar-API",
+        "bookmark": false
+    },
+    {
+        "id": 6,
+        "name": "Meteorologisk Institutt",
+        "category": "Data access",
+        "description": "Weather and climate data.",
+        "icon": "src/img/icons/meteorologisk.svg",
+        "url": "https://api.met.no/",
+        "bookmark": false
+    },
+    {
+        "id": 7,
+        "name": "Asana",
+        "category": "Data access",
+        "description": "Customize the Asana experience, leverage your data with the Asana API.",
+        "icon": "src/img/icons/asana.svg",
+        "url": "https://asana.com/developers",
+        "bookmark": false
+    },
+    {
+        "id": 8,
+        "name": "Mailchimp",
+        "category": "Automation",
+        "description": "Email marketing, ads, landing pages, and CRM tools to grow your business on your terms.",
+        "icon": "src/img/icons/mailchimp.svg",
+        "url": "https://mailchimp.com/developer/",
+        "bookmark": false
+    }
+]
